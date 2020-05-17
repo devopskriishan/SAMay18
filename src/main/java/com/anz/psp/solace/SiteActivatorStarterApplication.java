@@ -1,21 +1,4 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
+
 package com.anz.psp.solace;
 
 import org.slf4j.Logger;
@@ -55,9 +38,12 @@ public class SiteActivatorStarterApplication {
         @Autowired private SpringJCSMPFactory solaceFactory;
 
         // Examples of other beans that can be used together to generate a customized SpringJCSMPFactory
-        @Autowired(required=false) private SpringJCSMPFactoryCloudFactory springJCSMPFactoryCloudFactory;
-        @Autowired(required=false) private SolaceServiceCredentials solaceServiceCredentials;
-        @Autowired(required=false) private JCSMPProperties jcsmpProperties;
+       // @Autowired(required=false) private SpringJCSMPFactoryCloudFactory springJCSMPFactoryCloudFactory;
+       // @Autowired(required=false) private SolaceServiceCredentials solaceServiceCredentials;
+        @Autowired  private SpringJCSMPFactoryCloudFactory springJCSMPFactoryCloudFactory;
+      //  @Autowired  private SolaceServiceCredentials solaceServiceCredentials;
+        //@Autowired(required=false) private JCSMPProperties jcsmpProperties;
+        @Autowired private JCSMPProperties jcsmpProperties;
         @Autowired SEMPRestCallApplication sempRestCallApplication;
    
         public SiteActivatorMessageConsumer msgConsumer = new SiteActivatorMessageConsumer();
@@ -65,16 +51,18 @@ public class SiteActivatorStarterApplication {
         @Value("${application.mode}")
     	private String applicationMode;
         
-		/*
-		 * @Autowired ReplicationRoleResponse replicationRoleResponse;
-		 */
-
-        public void run(String... strings) throws Exception {
+	    public void run(String... strings) throws Exception {
         	
         
         	try {
 				msgConsumer.setSEMPRestCallApplication(sempRestCallApplication);
 				msgConsumer.setApplicationMode(applicationMode);
+				jcsmpProperties.setBooleanProperty(jcsmpProperties.SSL_VALIDATE_CERTIFICATE, true);
+				
+				jcsmpProperties.setProperty(jcsmpProperties.SSL_TRUST_STORE, "");
+				jcsmpProperties.setProperty(jcsmpProperties.SSL_TRUST_STORE, "");
+				jcsmpProperties.setProperty(jcsmpProperties.SSL_TRUST_STORE, "");
+				
 				
 				final JCSMPSession session = solaceFactory.createSession();
 				
@@ -84,7 +72,7 @@ public class SiteActivatorStarterApplication {
 				logger.info("#################  Session with Solace established successfully. Consumer connection established. Awaiting message... ######################");
 				cons.start();
 			} catch (Exception e) {
-				logger.info("######## Exception occured while creating Solace session, exception is :::: " + e);
+				logger.error("######## Exception occured while creating Solace session, exception is :::: ",e);
 				throw e;
 			}
             // Consumer session is now hooked up and running!

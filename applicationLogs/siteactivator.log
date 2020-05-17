@@ -1,0 +1,100 @@
+2020-05-11 00:00:54.543  INFO 14416 --- [main] c.s.j.protocol.impl.TcpClientChannel     : Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 2)
+2020-05-11 00:00:54.628  INFO 14416 --- [main] c.s.j.protocol.impl.TcpClientChannel     : Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 2)
+2020-05-11 00:00:54.700  INFO 14416 --- [main] s.SiteActivatorStarterApplication$Runner : #################  Session with Solace established successfully. Consumer connection established. Awaiting message... ######################
+2020-05-11 00:06:41.567  INFO 11944 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Starting SiteActivatorStarterApplication on DESKTOP-20QOC0L with PID 11944 (E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app\target\classes started by krishan in E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app)
+2020-05-11 00:06:41.574  INFO 11944 --- [main] c.a.p.s.SiteActivatorStarterApplication  : The following profiles are active: default
+2020-05-11 00:06:43.344  INFO 11944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-05-11 00:06:43.359  INFO 11944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-11 00:06:43.359  INFO 11944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-11 00:06:43.571  INFO 11944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-11 00:06:43.572  INFO 11944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1895 ms
+2020-05-11 00:06:45.250  INFO 11944 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:06:45.334  INFO 11944 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:06:45.524  INFO 11944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 00:06:45.843  INFO 11944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-05-11 00:06:45.847  INFO 11944 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Started SiteActivatorStarterApplication in 5.049 seconds (JVM running for 5.979)
+2020-05-11 00:06:46.004  INFO 11944 --- [main] c.s.j.protocol.impl.TcpClientChannel     : Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 2)
+2020-05-11 00:06:46.101  INFO 11944 --- [main] c.s.j.protocol.impl.TcpClientChannel     : Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 2)
+2020-05-11 00:06:46.159  INFO 11944 --- [main] s.SiteActivatorStarterApplication$Runner : #################  Session with Solace established successfully. Consumer connection established. Awaiting message... ######################
+2020-05-11 00:08:15.626  INFO 15924 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Starting SiteActivatorStarterApplication on DESKTOP-20QOC0L with PID 15924 (E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app\target\classes started by krishan in E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app)
+2020-05-11 00:08:15.632  INFO 15924 --- [main] c.a.p.s.SiteActivatorStarterApplication  : The following profiles are active: default
+2020-05-11 00:08:18.430  INFO 15924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-05-11 00:08:18.445  INFO 15924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-11 00:08:18.446  INFO 15924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-11 00:08:18.602  INFO 15924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-11 00:08:18.603  INFO 15924 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2882 ms
+2020-05-11 00:08:20.490  INFO 15924 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:08:20.502  INFO 15924 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:08:20.689  INFO 15924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 00:08:21.004  INFO 15924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-05-11 00:08:21.009  INFO 15924 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Started SiteActivatorStarterApplication in 6.112 seconds (JVM running for 6.822)
+2020-05-11 00:08:21.144  INFO 15924 --- [main] c.s.j.protocol.impl.TcpClientChannel     : Connecting to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 2)
+2020-05-11 00:08:21.168  INFO 15924 --- [main] c.s.j.protocol.impl.TcpClientChannel     : Connected to host 'orig=tcp://localhost:55555, scheme=tcp://, host=localhost, port=55555' (smfclient 2)
+2020-05-11 00:08:21.215  INFO 15924 --- [main] s.SiteActivatorStarterApplication$Runner : #################  Session with Solace established successfully. Consumer connection established. Awaiting message... ######################
+2020-05-11 00:09:07.989  INFO 16892 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Starting SiteActivatorStarterApplication on DESKTOP-20QOC0L with PID 16892 (E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app\target\classes started by krishan in E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app)
+2020-05-11 00:09:07.997  INFO 16892 --- [main] c.a.p.s.SiteActivatorStarterApplication  : The following profiles are active: default
+2020-05-11 00:09:11.453  INFO 16892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-05-11 00:09:11.475  INFO 16892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-11 00:09:11.476  INFO 16892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-11 00:09:11.662  INFO 16892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-11 00:09:11.663  INFO 16892 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3547 ms
+2020-05-11 00:09:13.700  INFO 16892 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:09:13.714  INFO 16892 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:09:13.981  INFO 16892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 00:09:14.391  INFO 16892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-05-11 00:09:14.401  INFO 16892 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Started SiteActivatorStarterApplication in 7.454 seconds (JVM running for 8.81)
+2020-05-11 00:13:04.933  INFO 17356 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Starting SiteActivatorStarterApplication on DESKTOP-20QOC0L with PID 17356 (E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app\target\classes started by krishan in E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app)
+2020-05-11 00:13:04.943  INFO 17356 --- [main] c.a.p.s.SiteActivatorStarterApplication  : The following profiles are active: default
+2020-05-11 00:13:07.202  INFO 17356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-05-11 00:13:07.226  INFO 17356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-11 00:13:07.227  INFO 17356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-11 00:13:07.458  INFO 17356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-11 00:13:07.458  INFO 17356 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2395 ms
+2020-05-11 00:13:09.519  INFO 17356 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:13:09.535  WARN 17356 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'siteActivatorStarterApplication.Runner': Unsatisfied dependency expressed through field 'solaceServiceCredentials'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.solace.services.core.model.SolaceServiceCredentials' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-11 00:13:09.542  INFO 17356 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-05-11 00:13:09.572  INFO 17356 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 00:13:09.841 ERROR 17356 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'siteActivatorStarterApplication.Runner': Unsatisfied dependency expressed through field 'solaceServiceCredentials'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.solace.services.core.model.SolaceServiceCredentials' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.anz.psp.solace.SiteActivatorStarterApplication.main(SiteActivatorStarterApplication.java:27) [classes/:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.solace.services.core.model.SolaceServiceCredentials' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1292) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+
+2020-05-11 00:14:00.777  INFO 17268 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Starting SiteActivatorStarterApplication on DESKTOP-20QOC0L with PID 17268 (E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app\target\classes started by krishan in E:\ANZ\ForSiteActivator\solace-java-spring-boot-master\solace-java-spring-boot-master\solace-java-sample-app)
+2020-05-11 00:14:00.788  INFO 17268 --- [main] c.a.p.s.SiteActivatorStarterApplication  : The following profiles are active: default
+2020-05-11 00:14:03.340  INFO 17268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-05-11 00:14:03.362  INFO 17268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-11 00:14:03.362  INFO 17268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-11 00:14:03.576  INFO 17268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-11 00:14:03.577  INFO 17268 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2634 ms
+2020-05-11 00:14:05.563  INFO 17268 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:14:05.578  INFO 17268 --- [main] c.s.j.i.JCSMPPropertiesTextMarshaling    : Skipping property key 'jcsmp.SSL_KEY_STORE_NORMALIZED_FORMAT', unknown
+2020-05-11 00:14:05.823  INFO 17268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 00:14:06.261  INFO 17268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-05-11 00:14:06.272  INFO 17268 --- [main] c.a.p.s.SiteActivatorStarterApplication  : Started SiteActivatorStarterApplication in 6.642 seconds (JVM running for 7.998)
