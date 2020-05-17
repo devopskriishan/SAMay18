@@ -38,9 +38,12 @@ public class SiteActivatorStarterApplication {
         @Autowired private SpringJCSMPFactory solaceFactory;
 
         // Examples of other beans that can be used together to generate a customized SpringJCSMPFactory
-        @Autowired(required=false) private SpringJCSMPFactoryCloudFactory springJCSMPFactoryCloudFactory;
-        @Autowired(required=false) private SolaceServiceCredentials solaceServiceCredentials;
-        @Autowired(required=false) private JCSMPProperties jcsmpProperties;
+       // @Autowired(required=false) private SpringJCSMPFactoryCloudFactory springJCSMPFactoryCloudFactory;
+       // @Autowired(required=false) private SolaceServiceCredentials solaceServiceCredentials;
+        @Autowired  private SpringJCSMPFactoryCloudFactory springJCSMPFactoryCloudFactory;
+      //  @Autowired  private SolaceServiceCredentials solaceServiceCredentials;
+        //@Autowired(required=false) private JCSMPProperties jcsmpProperties;
+        @Autowired private JCSMPProperties jcsmpProperties;
         @Autowired SEMPRestCallApplication sempRestCallApplication;
    
         public SiteActivatorMessageConsumer msgConsumer = new SiteActivatorMessageConsumer();
@@ -54,6 +57,12 @@ public class SiteActivatorStarterApplication {
         	try {
 				msgConsumer.setSEMPRestCallApplication(sempRestCallApplication);
 				msgConsumer.setApplicationMode(applicationMode);
+				jcsmpProperties.setBooleanProperty(jcsmpProperties.SSL_VALIDATE_CERTIFICATE, true);
+				
+				jcsmpProperties.setProperty(jcsmpProperties.SSL_TRUST_STORE, "");
+				jcsmpProperties.setProperty(jcsmpProperties.SSL_TRUST_STORE, "");
+				jcsmpProperties.setProperty(jcsmpProperties.SSL_TRUST_STORE, "");
+				
 				
 				final JCSMPSession session = solaceFactory.createSession();
 				
