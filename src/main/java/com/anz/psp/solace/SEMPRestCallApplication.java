@@ -56,6 +56,7 @@ public class SEMPRestCallApplication {
 	@Value("${solace.healthcheck.url.node2}")
 	private String solaceHealthCheckURLNode2;
 
+
 	public boolean solaceHealthCheck() {
 		requestFactory.setConnectTimeout(1000);
 		requestFactory.setReadTimeout(1000);
